@@ -8,8 +8,6 @@ async function UnshortenURL(URL, token) {
         const response = await fetch(url, { headers });
         const data = await response.json();
 
-        console.log(data);
-
         if (!data || typeof data.unshortened_url === 'undefined') {
             return "⚠️ Error: No unshortened URL found in API response.";
         }

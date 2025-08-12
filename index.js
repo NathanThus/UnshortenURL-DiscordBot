@@ -18,9 +18,7 @@ client.once(Events.ClientReady, readyClient => {
 });
 
 client.on('messageCreate', async (message) => {
-    // Ignore messages from bots
     if (message.author.bot) return;
-    console.log("Test");
     if (!DoesMessageContainLink(message.content)) return;
 
     var shortendURLs = ExtractURL(message.content);

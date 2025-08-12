@@ -82,7 +82,7 @@ Go to the Discord Developer Portal and open your bot application (or make a new 
 
 Don't forget to save your changes!
 
-After that, invite the bot to the server. Once the bot is in, run the 
+After that, invite the bot to the server. Once the bot is in, run the aforementioned commands.
 
 ## 📄 License
 

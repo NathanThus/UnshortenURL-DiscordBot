@@ -1,6 +1,6 @@
 # README
 
-Makes use of the https://unshorten.me/api API for unshortening the links, before posting them back into the game.
+Makes use of the https://unshorten.me/api API for unshortening the links, before posting them back into the discord.
 
 ## ✨ Purpose / Usage
 
